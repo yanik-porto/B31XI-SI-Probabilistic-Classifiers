@@ -57,7 +57,7 @@ Enter the following command in a terminal `ipython notebook`.
 
 This command should run the server locally via your default web browser and you will be able to play with the notebook.
 
-If you are just curious to see what the ipython notebook look like, you can view it [there](http://nbviewer.ipython.org/github/glemaitre/B31XI-SI-Clustering/blob/master/03-clustering.ipynb).
+If you are just curious to see what the ipython notebook look like, you can view it [there](http://nbviewer.ipython.org/github/ViBOT-Erasmus/B31XI-SI-Probabilistic-Classifiers/blob/master/04-probabilistic-classifiers.ipynb).
 
 Enjoy!!!
 
