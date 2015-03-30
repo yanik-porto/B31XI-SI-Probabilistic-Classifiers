@@ -3,7 +3,7 @@
 **Table-of-contents**
 
 * [Dependencies](#dependencies)
-* [Clustering](#clustering)
+* [Probabilistic classifiers](#probabilistic-classifiers)
 * [To perform the practise](#to-perform-the-practise)
 
 More description is given in the subsections.
@@ -17,26 +17,26 @@ In order to use the Ipython Notebook, the following dependencies are needed:
 * IPython - `sudo apt-get install ipython`
 * IPython notebook - `sudo apt-get install ipython-notebook`
 * Numpy - `sudo apt-get install python-numpy`
-* Scipy - `sudo apt-get install python-scipy`
 * Matplotlib - `sudo apt-get install python-matplotlib`
 * Mpld3 - `sudo pip install mpld3`
 * Scikit-learn - `sudo apt-get install python-sklearn`
-* Scikit-fuzzy - `sudo pip install -U scikit-fuzzy`
 * Scikit-image - `sudo apt-get install python-skimage`
 
 We strongly recommend to use a Linux environment to perform this practise.
 
-## Clustering
+## Probabilistic classifiers
 
-Synthetic data will be generated. K-means as well as Fuzzy C-means will be used in order to cluster these data and understand the main differences between these two algorithms. These algorithms are then used to segment vessels in retina images.
+### Euclidean and Mahalanobis distances
 
-### K-means
+Comparison of [Euclidean distance](http://en.wikipedia.org/wiki/Euclidean_distance) and [Mahalanobis distance](http://en.wikipedia.org/wiki/Mahalanobis_distance).
 
-Insights about K-means can be found [here](http://en.wikipedia.org/wiki/K-means_clustering).
+### Logistic regression for classification
 
-### Fuzzy C-means
+Implementation of a [logistic regression classifier](http://en.wikipedia.org/wiki/Logistic_regression) through gradient descent.
 
-Insights about K-means can be found [here](http://en.wikipedia.org/wiki/Fuzzy_clustering).
+### Naive Bayes' classifier
+
+Naive Bayes' classifier with understanding of Maximum Likelihood (ML) and Maximum *a-posteriori* (MAP). This classifier to segment vessels in retina images.
 
 ## To perform the practise
 
