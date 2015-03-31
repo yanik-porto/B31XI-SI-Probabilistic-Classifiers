@@ -26,6 +26,9 @@ We strongly recommend to use a Linux environment to perform this practise.
 
 ## Probabilistic classifiers
 
+The following module of the framework will be studied:
+![Alt text](./readme-images/pr-framework-fc.png)
+
 ### Euclidean and Mahalanobis distances
 
 Comparison of [Euclidean distance](http://en.wikipedia.org/wiki/Euclidean_distance) and [Mahalanobis distance](http://en.wikipedia.org/wiki/Mahalanobis_distance).
